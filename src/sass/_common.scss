@@ -39,7 +39,7 @@ ul {
   }
 
   @media screen and (min-width: 1200px) {
-    @include text-decoration(700, 14px, 1.14, var(--dark-text-color));
+    @include text-decoration(700, var(--smallFont1200), 1.14, var(--dark-text-color));
   }
 
   &:hover,

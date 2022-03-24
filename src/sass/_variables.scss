@@ -7,6 +7,9 @@
   --company-color: #afb1b8;
   --timing: 250ms;
   --cubik: cubic-bezier(0.4, 0, 0.2, 1);
+  --smallFont1200: 14px;
+  --middleFont1200: 18px;
+ 
 }
 
 @mixin text-decoration($weight, $size, $lg, $color) {

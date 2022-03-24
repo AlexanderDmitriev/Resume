@@ -12,11 +12,11 @@
   }
 
   @media screen and (min-width: 768px) {
-    @include text-decoration(700, 15px, 1.14, var(--dark-text-color));
+    @include text-decoration(700, 14px, 1.14, var(--dark-text-color));
   }
 
   @media screen and (min-width: 1200px) {
-    @include text-decoration(700, 16px, 1.14, var(--dark-text-color));
+    @include text-decoration(700, var(--middleFont1200), 1.14, var(--dark-text-color));
   }
 }
 
@@ -31,7 +31,7 @@
   }
 
   @media screen and (min-width: 1200px) {
-    @include text-decoration(700, 14px, 1.14, var(--dark-text-color));
+    @include text-decoration(700, var(--smallFont1200), 1.14, var(--dark-text-color));
   }
 }
 
@@ -49,7 +49,7 @@
   }
 
   @media screen and (min-width: 1200px) {
-    @include text-decoration(700, 14px, 1.14, var(--dark-text-color));
+    @include text-decoration(700, var(--smallFont1200), 1.14, var(--dark-text-color));
   }
 }
 
@@ -75,6 +75,6 @@
   }
 
   @media screen and (min-width: 1200px) {
-    @include text-decoration(700, 18px, 1.14, var(--second-color));
+    @include text-decoration(700, var(--middleFont1200), 1.14, var(--second-color));
   }
 }
