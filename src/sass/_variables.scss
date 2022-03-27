@@ -9,7 +9,12 @@
   --cubik: cubic-bezier(0.4, 0, 0.2, 1);
   --smallFont1200: 14px;
   --middleFont1200: 18px;
- 
+  --largeFont1200: 30px;
+  --nameFont1200:35px;
+  --smallFont768: 12px;
+  --middleFont768: 14px;
+  --largeFont768: 25px;
+  --nameFont768:30px;
 }
 
 @mixin text-decoration($weight, $size, $lg, $color) {

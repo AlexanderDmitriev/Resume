@@ -9,40 +9,36 @@
 }
 
 .sidebar-title {
-  padding: 10px;
-  @include text-decoration(700, 12px, 1.14, var(--dark-text-color));
+  padding-top: 10px;
+  padding-bottom: 10px;
+  @include text-decoration(700, 12px, 1.3, var(--dark-text-color));
   @media screen and (min-width: 480px) {
-    @include text-decoration(700, 14px, 1.14, var(--dark-text-color));
+    @include text-decoration(700, 13px, 1.3, var(--dark-text-color));
   }
 
   @media screen and (min-width: 768px) {
-    @include text-decoration(700, 14px, 1.14, var(--dark-text-color));
+    @include text-decoration(700, var(--middleFont768), 1.3, var(--dark-text-color));
   }
 
   @media screen and (min-width: 1200px) {
-    @include text-decoration(700, var(--middleFont1200), 1.14, var(--dark-text-color));
+    @include text-decoration(700, var(--middleFont1200), 1.3, var(--dark-text-color));
   }
 }
 
 .sidebar-content {
-  padding: 3px;
   display: block;
-  @include text-decoration(700, 8px, 1.14, var(--dark-text-color));
+  @include text-decoration(700, 8px, 1.35, var(--dark-text-color));
   @media screen and (min-width: 480px) {
-    @include text-decoration(700, 10px, 1.14, var(--dark-text-color));
+    @include text-decoration(700, 11px, 1.35, var(--dark-text-color));
   }
 
   @media screen and (min-width: 768px) {
-    @include text-decoration(700, 12px, 1.14, var(--dark-text-color));
+    @include text-decoration(700, var(--smallFont768), 1.35, var(--dark-text-color));
   }
 
   @media screen and (min-width: 1200px) {
-    @include text-decoration(700, var(--smallFont1200), 1.14, var(--dark-text-color));
+    @include text-decoration(700, var(--smallFont1200), 1.35, var(--dark-text-color));
   }
-}
-
-.sidebar-list {
-  padding: 0 10px;
 }
 
 .photo{
