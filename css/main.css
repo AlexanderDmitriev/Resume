@@ -57,6 +57,12 @@ ul {
   transition-timing-function: var(--cubik);
 }
 
+@media print {
+  .link {
+    font-size: 11px;
+  }
+}
+
 @media screen and (min-width: 480px) {
   .link {
     font-weight: 700;
@@ -199,6 +205,12 @@ ul {
   color: var(--light-text-color);
 }
 
+@media print {
+  .header-section__resume-text {
+    font-size: 11px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .header-section__resume-text {
     font-weight: 700;
@@ -237,6 +249,12 @@ ul {
   line-height: 1.3;
   font-style: normal;
   color: var(--dark-text-color);
+}
+
+@media print {
+  .sidebar-title {
+    font-size: 14px;
+  }
 }
 
 @media screen and (min-width: 480px) {
@@ -278,6 +296,12 @@ ul {
   color: var(--dark-text-color);
 }
 
+@media print {
+  .sidebar-content {
+    font-size: 11px;
+  }
+}
+
 @media screen and (min-width: 480px) {
   .sidebar-content {
     font-weight: 700;
@@ -312,6 +336,12 @@ ul {
   width: 85px;
 }
 
+@media print {
+  .photo {
+    width: 200px;
+  }
+}
+
 @media screen and (min-width: 480px) {
   .photo {
     width: 120px;
@@ -343,6 +373,12 @@ ul {
   line-height: 1.3;
   font-style: normal;
   color: var(--dark-text-color);
+}
+
+@media print {
+  .content-title__secondary {
+    font-size: 14px;
+  }
 }
 
 @media screen and (min-width: 480px) {
@@ -387,6 +423,12 @@ ul {
   color: var(--dark-text-color);
 }
 
+@media print {
+  .workList {
+    font-size: 11px;
+  }
+}
+
 @media screen and (min-width: 480px) {
   .workList {
     font-weight: 700;
@@ -423,6 +465,12 @@ ul {
   line-height: 1.14;
   font-style: normal;
   color: var(--dark-text-color);
+}
+
+@media print {
+  .content-text {
+    font-size: 11px;
+  }
 }
 
 @media screen and (min-width: 480px) {
@@ -472,6 +520,12 @@ ul {
   line-height: 1.3;
   font-style: normal;
   color: var(--second-color);
+}
+
+@media print {
+  .project-link {
+    font-size: 14px;
+  }
 }
 
 @media screen and (min-width: 480px) {

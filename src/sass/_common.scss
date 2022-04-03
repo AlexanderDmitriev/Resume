@@ -26,6 +26,7 @@ ul {
 
 .link {
   text-decoration: none;
+  @media print{font-size: 11px;}
   @include text-decoration(700, 7px, 1.3, var(--dark-text-color));
   transition-property: color, fill;
   transition-duration: var(--timing);

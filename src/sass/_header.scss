@@ -28,6 +28,7 @@
 }
 
 .header-section__resume-text {
+  @media print{font-size: 11px;}
   @include text-decoration(700, var(--smallFont768), 1.3, var(--light-text-color));
   @media screen and (min-width: 768px) {
     @include text-decoration(700, var(--smallFont768), 1.3, var(--light-text-color));
