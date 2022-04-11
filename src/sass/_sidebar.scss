@@ -3,9 +3,30 @@
   background-color: var(--second-color);
   overflow: auto;
   float: left;
-  padding: 15px;
+  padding: 20px;
   position: relative;
   bottom: 0;
+}
+
+.sidebar__content-section{
+
+  @media print{
+    padding-left: 22px;
+    padding-top: 40px;}
+  @media screen and (min-width: 480px) {
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+
+  @media screen and (min-width: 768px) {
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 40px;
+    padding-left: 40px;
+  }
 }
 
 .sidebar-title {
@@ -43,6 +64,13 @@
   }
 }
 
+.sidebar-list{
+  &:not(:last-child){
+    margin-bottom: 25px;
+  }
+  
+}
+
 .photo{
   width: 85px;
   @media print{width: 200px;}
@@ -55,7 +83,7 @@
   }
 
   @media screen and (min-width: 1200px) {
-    width: 240px;
+    width: 256px;
     
   }
 }
