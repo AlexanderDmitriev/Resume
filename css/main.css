@@ -244,27 +244,27 @@ ul {
 @media print {
   .sidebar__content-section {
     padding-left: 22px;
-    padding-top: 40px;
+    padding-top: 10px;
   }
 }
 
 @media screen and (min-width: 480px) {
   .sidebar__content-section {
     padding-top: 10px;
-    padding-left: 10px;
+    padding-left: 5px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .sidebar__content-section {
-    padding-top: 20px;
+    padding-top: 15px;
     padding-left: 20px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .sidebar__content-section {
-    padding-top: 40px;
+    padding-top: 30px;
     padding-left: 40px;
   }
 }
@@ -370,7 +370,8 @@ ul {
 
 @media print {
   .photo {
-    width: 200px;
+    width: 220px;
+    margin-left: -10px;
   }
 }
 
@@ -388,7 +389,7 @@ ul {
 
 @media screen and (min-width: 1200px) {
   .photo {
-    width: 256px;
+    width: 320px;
   }
 }
 
